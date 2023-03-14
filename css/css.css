@@ -1,0 +1,657 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.principal {
+    width: 1300px;
+    margin: 0px auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* header */
+header {
+    background-color: #1e172f;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header nav ul a {
+    color: #6e687c;
+    font-size: 19px;
+}
+
+#about {
+    color: white;
+}
+
+#download a{
+    color: white;
+}
+#download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 45px;
+    background: linear-gradient(to right, #7f4ad0, #1475d4);
+    border-radius: 4px;
+}
+
+/* seccion1 */
+/* muro morado */
+.seccion1 {
+    display: flex;
+    height: 600px;
+    /* height: auto; */
+}
+
+.seccion1 .muroMorado {
+    width: 50%;
+    background-color: #2e2550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.seccion1 .muroMorado .info {
+    margin-left: 170px;
+    margin-top: 70px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.seccion1 .muroMorado .info h1 {
+    font-size: 70px;
+    width: 400px;
+}
+.seccion1 .muroMorado .info p {
+    width: 450px;
+    font-size: 22px;
+}
+
+/* botones */
+.botones {
+    border: 2px #6e687c solid;
+    border-radius: 5px;
+    width: 340px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones .boton1 {
+    width: 58%;
+    height: 42px;
+    background: white;
+    color: rgb(255, 0, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones .boton2 {
+    border: 3px solid white;
+    width: 40%;
+    height: 42px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botones .boton1, .boton2 {
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* muro de hojas y telefono */
+.seccion1 .muroHojas {
+    width: 50%;
+    background: url(/img/hojas.jpeg) no-repeat 0 -80px;
+    background-size: calc(140%);
+    opacity: 0.9;
+    /* filter: brightness(60%); */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.9)), rgba(0, 0, 0, 0.5); */
+    display: flex;
+    align-items: end;
+
+    /* background-size: contain; */
+}
+
+.seccion1 .muroHojas img {
+    width: 220px;
+    height: 430px;
+    margin: 0 0 40px 135px;
+}
+
+/* seccion 2 */
+.seccion2 {
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 60px;
+}
+
+.seccion2 h2 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    color: #f40c82;
+}
+
+.seccion2 .contenido {
+    /* border: 4px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    gap: 60px;
+}
+
+.seccion2 .contenido img {
+    width: 450px;
+}
+
+.seccion2 .contenido .parrafos {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.seccion2 .contenido .parrafos p {
+    font-size: 18px;
+}
+
+.seccion2 .contenido .parrafos .alphaScren {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.alphaScren p{
+    width: 400px;
+}
+.alphaScren h3 {
+    color: rgb(186, 21, 81);
+    font-size: 40px;
+}
+
+.seccion2 .contenido .parrafos .marketing {
+    /* border: 2px solid rgb(0, 255, 106); */
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.marketing .colorPink {
+    color: #f40c82;
+    font-size: 22px;
+}
+
+.seccion2 .marketing li {
+    font-size: 18px;
+}
+
+/* iconos */
+.marketing i{
+    color: #f40c82;
+}
+
+/* seccion3 */
+.seccion3 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* border: 2px solid green; */
+    background-color: #1e172f;
+    padding: 50px 0;
+    gap: 70px;
+    height: auto;
+}
+
+.seccion3 .info-secc3{
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 30px
+}
+
+.seccion3 .info-secc3 h4 {
+    font-size: 55px;
+}
+
+.seccion3 .info-secc3 p {
+    /* border: 2px solid orchid; */
+    width: 755px;
+    font-size: 20px;
+    text-align: center;
+    color: #b7b1c5;
+}
+
+.seccion3 .cont-columnas {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 2%; /*20px*/
+    width: 100%;
+}
+.seccion3 .cont-columnas .columna {
+    width: 25%;
+    height: auto;
+    /* border: 2px solid blue; */
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* gap: 30px; */
+    color: #263247;
+}
+
+
+/* seccion3 parte del encabezado de las columnas */
+.seccion3 .columna .encabezado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 130px;
+}
+
+.seccion3 .columna .encabezado h5 {
+    font-size: 22px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.seccion3 .columna .encabezado #titlePink {
+    color: #f41b89;
+}
+
+
+/* seccion3 parte del precio */
+.seccion3 .columna .cont-precio {
+    background-color: #f5f5f5;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.seccion3 .columna .cont-precio .precio {
+    font-size: 40px;
+    color: #212121;
+    display: flex;
+    align-items: center;
+}
+.seccion3 .columna .cont-precio .info {
+    margin-bottom: 10px;
+    color: #212121;
+    /* width: 70px; */
+}
+.seccion3 .columna .cont-precio .precio i {
+    font-size: 30px;
+}
+/* .cont-precio .signopesos {
+    font-size: 28px;
+} */
+
+
+/* seccion3 parte lista y parrafo */
+.seccion3 .columna .lista-parrafo {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    gap: 8px;
+    font-size: 18px;
+    text-align: center;
+}
+.seccion3 .columna .lista-parrafo .lista {
+    /* border: 3px solid red; */
+    width: 100%;
+}
+.seccion3 .columna .lista-parrafo .parrafo p{
+    /* border: 3px #f41b89 solid; */
+    width: 230px;
+    color: #727272;
+}
+
+/* iconos */
+.lista {
+    display: flex;
+    gap: 25px;
+}
+.iconos {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* border: 2px solid blue; */
+    gap: 9px;
+}
+.iconos i {
+    color: #1e172f;
+}
+.iconos .iconoPink {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.iconos .iconoPink i{
+    color: #f41b89;
+}
+/* .ensayo {
+    display: flex;
+    flex-direction: column;
+} */
+
+.iconos-lista{
+    /* border: 2px solid #f41b89; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    color: #686767;
+}
+
+
+
+/* seccion3 botones */
+.seccion3 .suscribete {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;
+
+}
+.seccion3 .suscribete a {
+    background-color: #2e2550;
+    border-radius: 5px;
+    color: white;
+    height: 80%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.seccion3 .suscribete #boton1 {
+    background: linear-gradient(to right, #d867a5, #f41b89);
+
+}
+
+/* foother */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    color: rgb(92, 89, 89);
+    font-size: 18px;
+}
+footer .contacto {
+    display: flex;
+}
+footer #nombre {
+    color: #d867a5;
+}
+footer .redes {
+    display: flex;
+    gap: 20px;
+}
+footer .redes a{
+    color: #3f3f3f;
+    font-size: 25px;
+}
+
+
+.seccion1 .muroMorado .telefonoOculto {
+    display: none;
+}
+
+/* background: linear-gradient(to right, #7f4ad0, #f41b89);*/
+
+@media screen and (max-width: 1200px){
+    .principal {
+        min-width: 993px;
+        max-width: 1200px;
+        width: 100%;
+    }
+    .seccion1 .muroHojas{
+        background-size: calc(180%);
+    }
+    .seccion1 .muroMorado .info p {
+        width: 350px;
+        font-size: 18px;
+    }
+    .seccion1 .muroMorado .info {
+        margin-left: 140px;
+        margin-top: 0;
+    }
+    .seccion1 .muroHojas img {
+        width: 190px;
+        height: 400px;
+        margin: 0 0 75px 135px;
+    }
+
+    .seccion3 .cont-columnas .columna {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .principal {
+        min-width: 769px;
+        max-width: 992px;
+        width: 100%;
+    }
+    header nav ul li a{
+        font-size: 16px;
+    }
+    .seccion1 .muroHojas {
+        display: none;
+    }
+    .seccion1 .muroMorado {
+        width: 100%;
+    }
+    .seccion1 {
+        height: 500px;
+    }
+    .seccion1 .muroMorado .telefonoOculto {
+        display: flex;
+    }
+    .seccion1 .muroMorado .telefonoOculto img {
+        width: 175px;
+        height: 330px;
+    }
+    .seccion1 .muroMorado .info {
+        margin: 0px;
+    }
+
+    .seccion2 .contenido {
+        align-items: center;
+    }
+    .seccion2 .contenido img{
+        width: 300px;
+    }
+    .seccion2 h2 {
+        font-size: 50px;
+    }
+    .seccion2 .contenido .parrafos {
+        gap: 15px;
+    }
+    .seccion2 .contenido .parrafos .alphaScren {
+        gap: 15px;
+    }
+
+    .seccion3 .cont-columnas {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .seccion3 .cont-columnas .columna {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .principal {
+        min-width: 481px;
+        max-width: 768px;
+        width: 100%;
+    }
+    .seccion1 {
+        height: 450px;
+    }
+    .seccion1 .muroMorado {
+        gap: 20px;
+    }
+    .seccion1 .muroMorado .telefonoOculto img {
+        width: 110px;
+        height: 200px;
+    }
+    .seccion1 .muroMorado .info h1{
+        font-size: 50px;
+        width: 200px;
+    }
+    .seccion1 .muroMorado .info p{
+        width: 250px;
+        font-size: 16px;
+    }
+    .seccion1 .muroMorado .botones {
+        width: 200px;
+    }
+    .seccion1 .muroMorado .botones .boton1, .seccion1 .muroMorado .botones .boton2 {
+        height: 35px;
+        font-size: 16px;
+        text-align: center;
+        border: 2px solid white;
+    }
+    header nav ul {
+        flex-direction: column;
+    }
+    .seccion2 .contenido {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .seccion2 .contenido img {
+        width: 250px;
+    }
+    .seccion2 .contenido .parrafos p, .seccion2 .contenido .parrafos li {
+        font-size: 16px;
+    }
+    .seccion2 .contenido .parrafos .alphaScren h3 {
+        font-size: 32px;
+    }
+
+    .seccion3 {
+        align-items: center;
+    }
+    .seccion3 .info-secc3 p {
+        width: 400px;
+        font-size: 16px;
+    }
+    .seccion3 .info-secc3 h4 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .seccion3 .cont-columnas {
+        flex-direction: column;
+        align-items: center;
+    }
+    .seccion3 .cont-columnas .columna {
+        width: 55%;
+    }
+    .seccion3 .cont-columnas .columna .lista-parrafo{
+        height: 275px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap:10px;
+        padding: 40px 0px;
+    }
+    footer .redes a {
+        font-size: 17px;
+    }    
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .principal {
+        /* min-width: 0px; */
+        max-width: 480px;
+        width: 100%;
+    }
+    .seccion1 .muroMorado {
+        /* background: #1475d4; */
+        gap: 20px;
+    }
+    .seccion1 .muroMorado .botones a {
+        text-align: center;
+    }
+
+}
+
+
+
+
+/* @media screen and (max-width: 992px) {
+   
+
+    header {
+        width: 100%;
+        justify-content:space-between
+    }
+    header nav ul {
+        gap:10px
+    }
+    header nav ul a {
+        font-size: 12px;
+    }
+    header img {
+        width: 100px;
+    }
+    
+    
+
+
+/* @media screen and (max-width: 400px) {
+.muroHojas {
+    display: none;
+}
+.muroMorado {
+    background: #f40c82;
+}
+} */
+/* display none */
+/* 249 */
