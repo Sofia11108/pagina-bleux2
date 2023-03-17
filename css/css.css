@@ -139,7 +139,6 @@ header nav ul a {
 
     /* filter: brightness(60%); */
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.9)), rgba(0, 0, 0, 0.5); */
-
     /* background-size: contain; */
 }
 
@@ -590,6 +589,7 @@ footer .redes a{
         flex-direction: column;
         padding: 10px;
         height: auto;
+        gap: 5px;
     }
     header nav #download {
         height: 35px;
@@ -602,7 +602,7 @@ footer .redes a{
     .seccion1 .muroMorado{
         width: 100%;
     }
-    .seccion1 .muroMorado .telefonoOculto{
+    .seccion1 .muroMorado                                                                                                                            .telefonoOculto{
         display: flex;
         width: 100px;
         height: 200px;
@@ -611,8 +611,13 @@ footer .redes a{
         width: 250px;
     }
     .seccion1 .muroMorado .botones {
-        width: 230px;
+        width: 180px;
         text-align: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .seccion1 .muroMorado .botones .boton1, .seccion1 .boton2 {
+        width: 100%;
     }
 
     /* seccion 2 */
@@ -648,6 +653,9 @@ footer .redes a{
     }
     .seccion3 .cont-columnas .columna{
         width: 55%;
+    }
+    .seccion3 .cont-columnas .columna #suscribete {
+        text-align: center;
     }
     
     footer {
