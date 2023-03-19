@@ -654,7 +654,7 @@ footer .redes a{
     .seccion3 .cont-columnas .columna{
         width: 55%;
     }
-    .seccion3 .cont-columnas .columna #suscribete {
+    .seccion3 .cont-columnas .columna #suscribete a{
         text-align: center;
     }
     
